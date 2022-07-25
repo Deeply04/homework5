@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppinsnormal';
+    src: url(../static/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppinsitalic';
+    src: url(../static/fonts/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Poppinsregular';
+    src: url(../static/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppinssemibold';
+    src: url(../static/fonts/Poppins-SemiBold.ttf);
+}
+
+.first{
+    font-family: 'Poppinsnormal';
+}
+.second{
+    font-family: 'Poppinsnormal';
+}
+.container{
+    height:48px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    display: flex;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 50px;
+    font-size: 24px;
+}
+.top-left2{
+    color: #3F69FF;
+}
+ul{
+    list-style: none;
+}
+.nav-items{
+    display: inline-block;
+    margin: 0 52px;
+}
+ul li a:hover{
+    color: #0052CC;
+    border-bottom: 1px solid#0052CC;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-size: 18px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    padding-top: 50px;
+}
+main{
+    margin-top:35px;
+}
+.top-section{
+    background-color: #0052CC;
+    height: 60px;
+    position: relative;
+}
+.input2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-section-menu{
+    display: flex;
+}
+.menu-left, .menu-right{
+ margin-left: 20px;
+ margin-top: 20px;
+}
+.menu-right{
+    padding-top: 3px;
+}
+.input input {
+    width: 389px;
+    height: 40px;
+    padding-left: 48px;
+}
+.categories{
+    color: #fff;
+}
+.mainword{
+    margin-left: 612px;
+    margin-top: 72px;
+    font-size: 20px;
+    font-family: 'Poppinsnormal';
+}
+.mainword2{
+    margin-left: 640px;
+    margin-top: 72px;
+    font-size: 26px;
+    color: #3F69FF;
+    font-family: 'Poppinsnormal';
+}
+.mainword3{
+    margin-left: 540px;
+    margin-top: 72px;
+    font-size: 26px;
+    color: #3F69FF;
+    font-family: 'Poppinsnormal';
+}
+.mainword4{
+    margin-left: 83px;
+    margin-top: 72px;
+    font-size: 20px;
+    font-family: 'Poppinsnormal';
+}
+.mainword5{
+    margin-left: 104px;
+    margin-top: 72px;
+    font-size: 28px;
+    font-family: 'Poppinsnormal';
+}
+.main-section-div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 90px;
+}
+.card-first{
+    width: 350px;
+    height: 450px;
+}
+.a32{
+    font-family: 'Poppinssemibold';
+}
+.recently{
+    font-family: 'Poppinsregular';
+    font-size: 12px;
+    color: #6A6A6A;
+}
+.seemore{
+    font-family: 'Poppinsmedium';
+    color: #000;
+}
+.gel650{
+    color: #373737;
+}
+.img1{
+    background-image: url(/static/img/A32\ front.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.img2{
+    background-image: url(/static/img/iphone\ 8\ front.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.img3{
+    background-image: url(/static/img/iphone\ X\ front.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.img4{
+    background-image: url(/static/img/galaxy\ s9\ front.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.img1:hover{
+    background-image: url(/static/img/A32\ back.png);
+}
+.img2:hover{
+    background-image: url(/static/img/iphone\ 8\ back.png);
+}
+.img3:hover{
+    background-image: url(/static/img/iphone\ x\ back.png)
+}
+.img4:hover{
+    background-image: url(/static/img/galaxy\ s9\ back.png);
+}
+.card-second{
+    width: 350px;
+    height: 450px;
+}
+.card-third{
+    width: 350px;
+    height: 450px;
+}
+.card-fourth{
+    width: 350px;
+    height: 450px;
+}
+.top-description{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.bottom-description{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #3F69FF;
+    padding-top: 10px;
+}
+.sale{
+    color: #BD6161;
+    margin-left: 70px;
+}
+.main-footer{
+    background-color: #0052CC;
+    margin-top: 233px;
+    height: 249px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-footer-left-top{
+    margin-left: 83px;
+    margin-top: 44px;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Poppinsregular';
+}
+.instagram{
+    margin-top: 99px;
+    margin-left: 83px;
+}
+.linkedin{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.main-footer-middle{
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    width: 400px;
+    height: 190px;
+    flex-direction: column;
+}
+.shop{
+    margin-left: 88px;
+}
+.usus{
+    margin-left: 88px;
+}
+.plus{
+    margin-left: 50px;
+}
+.categories{
+    margin-left: 65px;
+}
+.info{
+    margin-left: 213px;
+}
+.main-footer-middle-left-ul{
+    display: flex;
+}
+.main-footer-middle-center-ul{
+    display: flex;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.main-footer-middle-right-ul{
+    display: flex;
+}
+.main-footer-right-top input {
+    margin-top: 50px;
+    height: 40px;
+    width: 254px;
+    padding-left: 18px;
+}
+.main-footer-right-bottom{
+    width: 300px;
+    margin-top: 26px;
+    margin-right: 84px;
+}
+.subscribe{
+    color: #fff;
+    font-family: 'Poppinssemibold';
+}
+.middle-section{
+    display: flex;
+    justify-content: space-around;
+}
+.smartshop{
+    display: flex;
+    flex-direction: column;
+    width: 817px;
+    height: 263px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Poppinsregular';
+}
+.smartshop2{
+    margin-top: 20px;
+}
+.phones{
+    width: 196.09px;
+    height: 185.23px;
+}
+.whydo{
+    width: 1223px;
+    height: 78px;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Poppinsregular';
+}
+.middle-section-last{
+    margin-left: 490px;
+    margin-top: 49px;
+}
+.equality{
+    margin-left: 124px;
+    margin-right: 139px;
+}
+.teamwork{
+    margin-left: 124px;
+}
+.blog-section-top{
+    display: flex;
+}
+.applesettles{
+    font-size: 36px;
+    width: 615px;
+    height: 114px;
+    margin-left: 67px;
+    margin-top: 71px;
+    font-family: 'Poppinsitalic';
+}
+.applehas{
+    width: 579px;
+    height: 90px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 67px;
+    font-family: 'Poppinsregular';
+}
+.laptop{
+    margin-left: 73px;
+    margin-top: 41px;
+}
+.blog-section-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 86px;
+}
+.blog-card-first{
+    width: 280px;
+    height: 243px;
+}
+.blog-card-second{
+    width:  280px;
+    height: 243px;
+}
+.blog-card-third{
+    width: 280px;
+    height: 243px;
+}
+.blog-card-fourth{
+    width: 280px;
+    height: 243px;
+}
+.sun{
+    width: 100%;
+}
+.asrecord{
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: 'Poppinsregular';
+}
+.heatwave{
+    font-size: 14px;
+    margin-top: 14px;
+    font-family: 'Poppinsnormal';
+}
+.box{
+    width: 700px;
+    height: 650px;
+    margin-left: 104px;
+    margin-top: 24px;
+}
+.contact-left-top{
+    display: flex;
+    justify-content: space-around;
+}
+.firstname{
+    margin-bottom: 11px;
+}
+.lastname{
+    margin-bottom: 11px;
+}
+.input-firstname input {
+    width: 264px;
+    height: 48px;
+    padding-left: 16px;
+}
+.input-lastname input {
+    width: 264px;
+    height: 48px;
+    padding-left: 16px;
+}
+.input-email input {
+    padding-left: 16px;
+}
+.input-number input {
+    padding-left: 16px;
+}
+.contact-three{
+    display: flex;
+    flex-direction: column;
+    margin-left: 44px;
+    margin-top: 26px;
+}
+.input-email input{
+    width: 581px;
+    height: 48px;
+    margin-bottom: 26px;
+}
+.input-number input{
+    width: 581px;
+    height: 48px;
+    margin-bottom: 26px;
+}
+.input-message input {
+    width: 581px;
+    height: 133px;
+}
+.contactmail{
+    margin-bottom: 11px;
+}
+.sendmessage{
+    width: 209px;
+    height: 48px;
+    background-color: #3F69FF;
+    margin-top: 25px;
+    margin-left: 288px;
+    border-radius: 6px;
+}
+.sendmessagep{
+    padding-top: 11px;
+    padding-left: 39px;
+    color: #fff;
+    font-size: 18px;
+}
+.box2{
+    width: 700px;
+    height: 650px;
+}
+.contact-main{
+    display: flex;
+}
+.map{
+    width: 590px;
+    height: 562px;
+    margin-left: 99px;
+}
